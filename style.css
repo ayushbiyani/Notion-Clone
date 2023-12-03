@@ -1,0 +1,204 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo-img{
+    height: 100px;
+    width: 150px;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    display: inline;
+}
+
+.nav-items{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.nav-button{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-items: flex-end;
+    margin: 5px;
+    padding: 5px;
+}
+
+.nav-main{
+    display: flex;
+}
+
+.button-main{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    margin: 10px;
+    padding: 10px;
+}
+.request-button , .log-button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.request-button:hover , .log-button:hover{
+    background-color: grey;
+    opacity: 50%;
+    border-radius: 10px;
+}
+
+.notion-button{
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content{
+    margin: 10px;
+    padding: 10px;
+}
+
+.con{
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.con-2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+}
+
+.con-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.con-3-button{
+    background: transparent;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.con-3-button:hover{
+    opacity: 70%;
+}
+
+.home{
+    height: 400px;
+    width: 70%;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.ai , .wiki , .projects , .docs{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+    background-color: #dadde3;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ai:hover , .wiki:hover , .projects:hover , .docs:hover{
+    transform: translate(0, -10px);
+}
+
+.head-1 , .head-2 , .head-3 , .head-4{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 3px;
+    padding-left: 3px;
+}
+
+.dis-1 , .dis-2 , .dis-3 , .dis-4{
+    font-size: 20px;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.mid-head{
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 5px;
+    padding: 5px;
+}
+
+.mid-dis{
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.mid-img{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(22, 175, 175);
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
